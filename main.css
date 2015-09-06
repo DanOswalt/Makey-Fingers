@@ -1,0 +1,29 @@
+#grid-container {
+	margin-top: 20%;
+	height: 400px;
+}
+
+.lightup {
+	display: inline-block;
+	border-radius: 100%;
+	height: 100px;
+	width: 100px;
+	margin: 0 8%;
+}
+
+#a-press {
+	background-color: blue;
+}
+
+#s-press {
+	background-color: orange;
+}
+
+#d-press {
+	background-color: purple;
+}
+
+#f-press {
+	background-color: green;
+}
+

@@ -100,6 +100,26 @@
 					console.log('key not registered');
 				};
 			};
+
+			if (keyCombo.length === 1) {
+				switch(keyCombo) {
+			    case 'a':
+			        $('#a-press').hide().fadeIn(600);
+			        break;
+			    case 's':
+			        $('#s-press').hide().fadeIn(600);
+			        break;
+			    case 'd':
+			        $('#d-press').hide().fadeIn(600);
+			        break;
+			    case 'f':
+			        $('#f-press').hide().fadeIn(600);
+			        break;    
+			    default:
+			        break;
+}
+			}
+
 		};	
 
 		this.upEvent = function() {
